@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Lutris y Wine - Linux Gaming Wiki</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .guide-container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .guide-container h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+        .guide-container p, .guide-container li { color: var(--text-muted); margin-bottom: 1rem; line-height: 1.7; }
+        .guide-container h2 { color: var(--accent-color); margin-top: 2rem; margin-bottom: 1rem; }
+        .guide-container ol, .guide-container ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-color); text-decoration: none; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="logo">🐧 LinuxGamingWiki</a>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="lutris.html" class="active">Guías</a>
+        </nav>
+    </header>
+
+    <main class="guide-container">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+
+        <h1>Guía Definitiva: Configurar Lutris y Wine en Nobara</h1>
+        <p>Lutris es una navaja suiza fantástica para centralizar tus juegos de Epic Games, GOG, emuladores y ejecutables de Windows (.exe). En Nobara ya viene gran parte optimizada, pero aquí te explico cómo sacarle el máximo provecho.</p>
+
+        <h2>1. Instalación de Wine y dependencias clave</h2>
+        <p>Nobara incluye los paquetes de Wine orientados a gaming por defecto, pero si necesitas runners específicos, puedes gestionarlos directamente desde la interfaz de Lutris.</p>
+        
+        <h2>2. Añadir un juego externo paso a paso</h2>
+        <ol>
+            <li>Abre <strong>Lutris</strong> en tu escritorio.</li>
+            <li>Haz clic en el botón <strong>+</strong> (arriba a la izquierda) y selecciona <em>"Add locally installed game"</em>.</li>
+            <li>En la pestaña *Game info*, asígnale el nombre de tu juego.</li>
+            <li>En la pestaña *Game options*, busca el archivo ejecutable (`.exe`) de tu juego.</li>
+            <li>En *Runner*, asegúrate de seleccionar **Wine** y elige la versión de Wine/Proton instalada.</li>
+            <li>Guarda los cambios y haz doble clic sobre el póster del juego para lanzarlo.</li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>Wiki comunitaria de Linux Gaming.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk 2077 - Linux Gaming Wiki</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .game-detail { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .detail-header { margin-bottom: 2rem; }
+        .detail-header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .specs-box { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
+        .specs-box h3 { margin-bottom: 1rem; color: var(--accent-color); }
+        .specs-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+        .specs-list li { display: flex; justify-content: border-box; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+        .specs-list strong { color: var(--text-main); margin-right: 1rem; }
+        .guide-content h2 { margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--text-main); }
+        .guide-content p, .guide-content li { color: var(--text-muted); margin-bottom: 0.75rem; }
+        .guide-content ol { padding-left: 1.25rem; }
+        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-color); text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="logo">🐧 LinuxGamingWiki</a>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../guias/lutris.html">Guías</a>
+        </nav>
+    </header>
+
+    <main class="game-detail">
+        <a href="../index.html" class="back-link">← Volver al inicio</a>
+
+        <div class="detail-header">
+            <h1>Cyberpunk 2077</h1>
+            <span class="badge playable">🟢 Jugable / Rendimiento Óptimo</span>
+        </div>
+
+        <div class="specs-box">
+            <h3>📊 Resumen Técnico</h3>
+            <ul class="specs-list">
+                <li><strong>Sistema Operativo:</strong> Nobara Linux</li>
+                <li><strong>Capa de Compatibilidad:</strong> Proton-GE (Última versión)</li>
+                <li><strong>Rendimiento Promedio:</strong> 75 FPS (Configuración Alta @ 1080p)</li>
+                <li><strong>Plataforma:</strong> Steam / GOG</li>
+            </ul>
+        </div>
+
+        <div class="guide-content">
+            <h2>🛠️ Guía de Configuración Paso a Paso</h2>
+            <ol>
+                <li>Abre **Steam** en tu sistema Nobara.</li>
+                <li>Haz clic derecho en Cyberpunk 2077 y selecciona <strong>Propiedades</strong>.</li>
+                <li>Dirígete a la pestaña <strong>Compatibilidad</strong>, marca la casilla para forzar el uso de una herramienta de compilación y selecciona **Proton-GE**.</li>
+                <li>Inicia el juego. El primer inicio compilará los sombreadores (puede tardar un minuto), lo cual es normal para evitar tirones de rendimiento dentro del juego.</li>
+            </ol>
+
+            <h2>💡 Consejos del Tester</h2>
+            <p>Si experimentas micro-tartamudeos al conducir a alta velocidad por la ciudad, asegúrate de activar el modo de juego de Nobara y verificar que los drivers de tu tarjeta gráfica (AMD/NVIDIA) estén actualizados desde el panel de control de Nobara.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Creado para la comunidad Linux.</p>
+    </footer>
+
+</body>
+</html>

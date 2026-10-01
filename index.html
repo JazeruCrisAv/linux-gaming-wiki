@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Gaming Wiki | Nobara & Proton Directory</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <header>
+        <a href="index.html" class="logo">
+            🐧 LinuxGamingWiki
+        </a>
+        <nav>
+            <a href="index.html" class="active">Inicio</a>
+            <a href="guias/lutris.html">Guías (Lutris/Wine)</a>
+        </nav>
+    </header>
+
+    <!-- Sección Principal / Hero -->
+    <section class="hero">
+        <h1>Tu Videojuego Favorito en Linux</h1>
+        <p>Base de datos de compatibilidad, rendimiento y guías testeadas directamente en Nobara Linux.</p>
+    </section>
+
+    <!-- Buscador en tiempo real -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="🔍 Busca un juego (Ej. Cyberpunk, Elden Ring)...">
+    </div>
+
+    <!-- Contenido de Juegos -->
+    <main class="container">
+        <h2 class="section-title">Juegos Testeados Recientemente</h2>
+        
+        <div class="games-grid" id="games-grid">
+            <!-- Tarjeta 1 -->
+            <a href="juegos/cyberpunk-2077.html" class="game-card" data-title="cyberpunk 2077 rpg accion">
+                <div class="game-banner">🌆</div>
+                <div class="game-info">
+                    <h3 class="game-title">Cyberpunk 2077</h3>
+                    <span class="badge playable">🟢 Jugable / Perfecto</span>
+                    <p class="game-desc">Testeado en Nobara Linux con Proton-GE. Excelente tasa de fotogramas por segundo.</p>
+                </div>
+            </a>
+
+            <!-- Tarjeta 2 (Puedes duplicarla o adaptarla para más juegos) -->
+            <a href="#" class="game-card" data-title="elden ring souls action">
+                <div class="game-banner">⚔️</div>
+                <div class="game-info">
+                    <h3 class="game-title">Elden Ring</h3>
+                    <span class="badge playable">🟢 Platino en Proton</span>
+                    <p class="game-desc">Experiencia impecable a 60 FPS estables aplicando parches de sombreadores de Steam.</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Creado con ❤️ para la comunidad Linux y Nobara. 100% Open Source.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
